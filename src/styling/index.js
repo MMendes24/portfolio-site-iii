@@ -96,6 +96,40 @@ const AboutStyles = styled.section`
 		margin: 3% 0%;
 	}
 `
+const PortfolioStyles = styled.section`
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+
+	.project-header {
+		font-size: 2.5rem;
+		margin: 2% 0%;
+	}
+
+	.project-subheader {
+		font-size: 1.5rem;
+		margin: 2% 0%;
+	}
+
+	.project {
+		width: 60%;
+	}
+
+	.desc {
+		font-size: 1.2rem;
+		margin: 1% 0%;
+	}
+
+	.stack {
+		font-size: 1.2rem;
+		margin: 1% 0%;
+	}
+
+	.bullet {
+		font-size: 1.2rem;
+		margin: 1% 0%;
+	}
+`
 
 // resusable utility styling components
 const ColorSpan = styled.span`
@@ -108,5 +142,6 @@ export {
 	NavStyles,
 	LandingStyles,
 	AboutStyles,
+	PortfolioStyles,
 	ColorSpan,
 }
