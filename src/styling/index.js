@@ -149,6 +149,18 @@ const PortfolioStyles = styled.section`
 `
 
 const ContactStyles = styled.footer`
+	display: flex;
+	justify-content: center;
+	padding: 2%;
+	
+	.contact-link {
+		margin: 0% 2%;
+	}
+
+	i.fab {
+		font-size: 6rem;
+		color: #a1251b;
+	}
 
 `
 
