@@ -1,4 +1,8 @@
+// components
 import NavBar from './components/NavBar'
+import Landing from './components/Landing'
+
+// styles
 import {
   AppStyles,
   Container
@@ -11,6 +15,7 @@ function App() {
     <AppStyles>
       <Container>
         <NavBar />
+        <Landing />
       </Container>
     </AppStyles>
   )
