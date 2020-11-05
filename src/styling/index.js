@@ -100,6 +100,7 @@ const PortfolioStyles = styled.section`
 	display: flex;
 	flex-flow: column;
 	align-items: center;
+	margin: auto;
 
 	.project-header {
 		font-size: 2.5rem;
@@ -109,10 +110,17 @@ const PortfolioStyles = styled.section`
 	.project-subheader {
 		font-size: 1.5rem;
 		margin: 2% 0%;
+		text-decoration: underline;
 	}
 
 	.project {
-		width: 60%;
+		width: 80%;
+	}
+
+	.project-link {
+		color: #a1251b;
+		text-decoration: none;
+		font-weight: 600;
 	}
 
 	.desc {
@@ -122,12 +130,12 @@ const PortfolioStyles = styled.section`
 
 	.stack {
 		font-size: 1.2rem;
-		margin: 1% 0%;
+		margin: 3% 0%;
 	}
 
 	.bullet {
 		font-size: 1.2rem;
-		margin: 1% 0%;
+		margin: 2% 0%;
 	}
 `
 
