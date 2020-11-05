@@ -150,9 +150,20 @@ const PortfolioStyles = styled.section`
 
 const ContactStyles = styled.footer`
 	display: flex;
-	justify-content: center;
-	padding: 2%;
-	
+	flex-flow: column;
+	align-items: center;
+
+	.contact-header {
+		font-size: 2.5rem;
+		margin: 1% 0%;
+	}
+
+	.contact-wrapper {
+		display: flex;
+		justify-content: center;
+		padding: 1%;
+	}
+
 	.contact-link {
 		margin: 0% 2%;
 	}
