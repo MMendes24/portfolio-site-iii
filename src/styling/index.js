@@ -75,7 +75,7 @@ const LandingStyles = styled.section`
 	justify-content: center;
 	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(${bg});
 	background-size: cover;
-	height: 100vh;
+	height: 90vh;
 	font-weight: 600;
 
 	#page-header {
@@ -182,18 +182,16 @@ const ContactStyles = styled.footer`
 	}
 
 	.contact-wrapper {
+		width: 50%;
 		display: flex;
-		justify-content: center;
+		justify-content: space-between;
 		padding: 1%;
-	}
-
-	.contact-link {
-		margin: 0% 3%;
+		margin: 1% auto;
 	}
 
 	i.fab {
 		font-size: 6rem;
-		color: #a1251b;
+		color: #262626;
 		transition: all 0.3s ease 0s;
 		cursor: pointer;
 		outline: none;
@@ -201,7 +199,7 @@ const ContactStyles = styled.footer`
 
 	i.fas {
 		font-size: 6rem;
-		color: #a1251b;
+		color: #262626;
 		margin: 0% 3%;
 		transition: all 0.3s ease 0s;
 		cursor: pointer;
@@ -210,10 +208,12 @@ const ContactStyles = styled.footer`
 
 	
 	i.fab:hover {
+		color: #a1251b;
 		transform: translateY(-10px);
 	}
 
 	i.fas:hover {
+		color: #a1251b;
 		transform: translateY(-10px);
 	}
 
