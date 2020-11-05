@@ -6,6 +6,7 @@ const About = () => {
         <AboutStyles>
 
             <h2 className="about-header">Oh, <ColorSpan>me?</ColorSpan></h2>
+            
             <p className="about-p">I'm a <ColorSpan>full stack web developer</ColorSpan> who loves to work with <ColorSpan>React</ColorSpan>, but I'm open to falling in love with other frameworks. At the same time, I've always <ColorSpan>excelled on server side</ColorSpan>. I'm a huge believer in programmatic solutions and that hard-coded anything is an option of last resort. I like my <ColorSpan>components modular, reusable, and functional</ColorSpan>. I prefer my web servers RESTful but I would never turn down experimenting with a new methodology.</p>
 
             <p className="about-p">Here you'll find my projects, my resume, and a mountain of evidence implicating me in your local coffee shortage. The app you're currently visiting is a single-page React app, built to be semantic, functional, and easy on the eyes.</p>

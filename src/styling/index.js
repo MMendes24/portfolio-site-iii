@@ -61,8 +61,8 @@ const LandingStyles = styled.section`
 	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(${bg});
 	background-size: cover;
 	height: 100vh;
-	width: 95%;
-	margin: auto;
+	border-left: 2px solid whitesmoke;
+	border-right: 2px solid whitesmoke;
 
 	#page-header {
 		font-size: 5rem;
@@ -78,11 +78,11 @@ const AboutStyles = styled.section`
 	display: flex;
 	flex-flow: column;
 	align-items: center;
-	width: 80%;
+	width: 60%;
 	margin: auto;
 
 	.about-header {
-		font-size: 2rem;
+		font-size: 2.5rem;
 		margin: 2% 0%;
 	}
 

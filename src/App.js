@@ -1,3 +1,5 @@
+import React from 'react'
+
 // components
 import NavBar from './components/NavBar'
 import Landing from './components/Landing'
@@ -17,7 +19,7 @@ function App() {
       <Container>
         <NavBar />
         <Landing />
-        <About />
+        <About/>
       </Container>
     </AppStyles>
   )
