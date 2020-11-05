@@ -1,6 +1,7 @@
 // components
 import NavBar from './components/NavBar'
 import Landing from './components/Landing'
+import About from './components/About'
 
 // styles
 import {
@@ -16,6 +17,7 @@ function App() {
       <Container>
         <NavBar />
         <Landing />
+        <About />
       </Container>
     </AppStyles>
   )

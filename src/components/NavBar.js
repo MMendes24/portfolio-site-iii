@@ -1,10 +1,10 @@
 import React from "react"
 import { Link } from 'react-router-dom'
-import { Nav, ColorSpan } from "../styling"
+import { NavStyles, ColorSpan } from "../styling"
 
 const NavBar = () => {
     return (
-            <Nav>
+            <NavStyles>
                 <h2 className="page-header"><ColorSpan>Mars </ColorSpan>Mendes</h2>
                 <Link className="nav-link">About</Link>
                 <Link className="nav-link">Portfolio</Link>
@@ -20,7 +20,7 @@ const NavBar = () => {
                 <a className="social-link" href="https://www.linkedin.com/in/marsdmendes/">
                     <i class="fab fa-linkedin"></i>
                 </a>
-            </Nav>
+            </NavStyles>
     )
 }
 
