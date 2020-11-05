@@ -12,6 +12,7 @@ width: 80%;
 margin: auto;
 line-height: 1.3;
 
+
 `
 const Container = styled.div`
 	width: 100%;
@@ -100,7 +101,14 @@ const PortfolioStyles = styled.section`
 	display: flex;
 	flex-flow: column;
 	align-items: center;
-	margin: auto;
+	justify-content: center;
+
+	.project-img {
+		width: 40%;
+		border: 2px solid #262626;
+		border-radius: 5%;
+		margin: 1% 0%;
+	}
 
 	.project-header {
 		font-size: 2.5rem;
@@ -114,7 +122,9 @@ const PortfolioStyles = styled.section`
 	}
 
 	.project {
-		width: 80%;
+		width: 50%;
+		margin: auto;
+		border-bottom: 3px solid #262626;
 	}
 
 	.project-link {
@@ -139,6 +149,10 @@ const PortfolioStyles = styled.section`
 	}
 `
 
+const ContactStyles = styled.footer`
+
+`
+
 // resusable utility styling components
 const ColorSpan = styled.span`
 	color: #a1251b;
@@ -151,5 +165,6 @@ export {
 	LandingStyles,
 	AboutStyles,
 	PortfolioStyles,
+	ContactStyles,
 	ColorSpan,
 }
