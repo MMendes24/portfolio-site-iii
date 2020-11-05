@@ -8,7 +8,7 @@ flex-flow: column;
 align-items: center;
 font-family: 'Roboto Mono', monospace;
 background-color: whitesmoke;
-width: 90%;
+width: 80%;
 margin: auto;
 
 `
@@ -59,7 +59,7 @@ const LandingHero = styled.section`
 	justify-content: center;
 	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(${bg});
 	background-size: cover;
-	height: 95vh;
+	height: 100vh;
 	width: 95%;
 	margin: auto;
 

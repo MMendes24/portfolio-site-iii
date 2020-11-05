@@ -1,5 +1,5 @@
 import React from "react"
-import { LandingHero } from '../styling'
+import { LandingHero, ColorSpan } from '../styling'
 
 const Landing = () => {
     return (
