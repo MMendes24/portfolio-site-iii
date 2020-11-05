@@ -165,12 +165,18 @@ const ContactStyles = styled.footer`
 	}
 
 	.contact-link {
-		margin: 0% 2%;
+		margin: 0% 3%;
 	}
 
 	i.fab {
 		font-size: 6rem;
 		color: #a1251b;
+	}
+
+	i.fas {
+		font-size: 6rem;
+		color: #a1251b;
+		margin: 0% 3%;
 	}
 
 `

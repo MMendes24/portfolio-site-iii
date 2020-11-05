@@ -17,6 +17,7 @@ const Contact = () => {
                 <a className="contact-link" href="https://www.linkedin.com/in/marsdmendes/">
                     <i class="fab fa-linkedin"></i>
                 </a>
+                <i class="fas fa-envelope-square"></i>
             </div>
         </ContactStyles>
     )
