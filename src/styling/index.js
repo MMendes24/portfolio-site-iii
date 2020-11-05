@@ -65,7 +65,7 @@ const LandingStyles = styled.section`
 	margin: auto;
 
 	#page-header {
-		font-size: 6rem;
+		font-size: 5rem;
 	}
 
 	.landing-p {
