@@ -29,29 +29,43 @@ const NavStyles = styled.nav`
 	text-decoration: none;
 	padding: 1% 0%;
 
-	.page-header {
-		font-size: 2rem;
-		width: 50%;
-	}
-
 	.nav-link {
 		color: #262626;
 		text-decoration: none;
 		font-size: 1.5rem;
 		margin: 0% 1%;
 		padding: 0.5% 1%;
-		border: 3px solid #262626;
-		border-radius: 10%;
+		transition: all 0.3s ease 0s;
+		cursor: pointer;
+		outline: none;
+	}
+
+	.nav-link:hover {
+		transform: translateY(-10px);
+		color:#a1251b;
 	}
 
 	.social-link {
-		margin: 0% 1%
+		margin: 0% 2%
 	}
 
 	i.fab {
-		color: #a1251b;
+		color: #262626;
 		font-size: 3rem;
+		transition: all 0.3s ease 0s;
+		cursor: pointer;
+		outline: none;
 	}
+
+	i.fab:hover {
+		transform: translateY(-10px);
+		color: #a1251b;
+	  }
+
+	i.fas {
+		font-size: 2rem;
+	}
+	  
 `
 const LandingStyles = styled.section`
 	color: whitesmoke;
@@ -62,13 +76,14 @@ const LandingStyles = styled.section`
 	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(${bg});
 	background-size: cover;
 	height: 100vh;
+	font-weight: 600;
 
 	#page-header {
 		font-size: 5rem;
 	}
 
 	.landing-p {
-		font-size: 1.5rem;
+		font-size: 2rem;
 	}
 
 `
@@ -94,6 +109,16 @@ const AboutStyles = styled.section`
 		font-size: 1.2rem;
 		margin: 3% 0%;
 	}
+
+	i.fas {
+		font-size: 1.2rem;
+		color: #a1251b;
+	}
+
+	#user-i {
+		margin-top: 2%;
+		font-size: 5rem;
+	}
 `
 const PortfolioStyles = styled.section`
 	display: flex;
@@ -105,7 +130,7 @@ const PortfolioStyles = styled.section`
 		width: 50%;
 		border: 2px solid #262626;
 		border-radius: 5%;
-		margin: 3% 0%;
+		margin-top: 3%;
 	}
 
 	.project-header {
@@ -153,7 +178,7 @@ const ContactStyles = styled.footer`
 
 	.contact-header {
 		font-size: 2.5rem;
-		margin: 3% 0%;
+		margin: 1% 0%;
 	}
 
 	.contact-wrapper {
@@ -169,12 +194,27 @@ const ContactStyles = styled.footer`
 	i.fab {
 		font-size: 6rem;
 		color: #a1251b;
+		transition: all 0.3s ease 0s;
+		cursor: pointer;
+		outline: none;
 	}
 
 	i.fas {
 		font-size: 6rem;
 		color: #a1251b;
 		margin: 0% 3%;
+		transition: all 0.3s ease 0s;
+		cursor: pointer;
+		outline: none;
+	}
+
+	
+	i.fab:hover {
+		transform: translateY(-10px);
+	}
+
+	i.fas:hover {
+		transform: translateY(-10px);
 	}
 
 `

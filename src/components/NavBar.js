@@ -1,12 +1,10 @@
 import React from "react"
 import { Link } from "react-scroll";
-import { NavStyles, ColorSpan } from "../styling"
+import { NavStyles } from "../styling"
 
 const NavBar = () => {
     return (
         <NavStyles>
-            <h2 className="page-header"><ColorSpan>Mars </ColorSpan>Mendes</h2>
-
             <Link
                 activeClass="active"
                 to="about-header"
@@ -15,7 +13,7 @@ const NavBar = () => {
                 offset={-70}
                 duration={500}
                 className="nav-link">
-                About</Link>
+                About <i class="fas fa-rocket"></i></Link>
 
             <Link activeClass="active"
                 to="project-header"
@@ -24,17 +22,17 @@ const NavBar = () => {
                 offset={-70}
                 duration={500}
                 className="nav-link">
-                Portfolio</Link>
+                Portfolio <i class="fas fa-folder"></i></Link>
 
-            
-                <Link activeClass="active"
+
+            <Link activeClass="active"
                 to="contact-header"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}
                 className="nav-link">
-                Contact</Link>
+                Contact <i class="fas fa-coffee"></i></Link>
 
             <a className="social-link" href="https://github.com/MMendes24">
                 <i class="fab fa-github-square"></i>
