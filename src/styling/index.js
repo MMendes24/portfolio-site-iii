@@ -104,7 +104,7 @@ const PortfolioStyles = styled.section`
 	justify-content: center;
 
 	.project-img {
-		width: 40%;
+		width: 50%;
 		border: 2px solid #262626;
 		border-radius: 5%;
 		margin: 1% 0%;
@@ -118,13 +118,12 @@ const PortfolioStyles = styled.section`
 	.project-subheader {
 		font-size: 1.5rem;
 		margin: 2% 0%;
-		text-decoration: underline;
 	}
 
 	.project {
-		width: 50%;
+		width: 60%;
 		margin: auto;
-		border-bottom: 3px solid #262626;
+		padding: 2%;
 	}
 
 	.project-link {
