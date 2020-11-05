@@ -10,6 +10,7 @@ font-family: 'Roboto Mono', monospace;
 background-color: whitesmoke;
 width: 80%;
 margin: auto;
+line-height: 1.3;
 
 `
 const Container = styled.div`
@@ -19,7 +20,7 @@ const Container = styled.div`
 	flex-flow: column;
 	justify-content: center;
 `
-const Nav = styled.nav`
+const NavStyles = styled.nav`
 	width: 100%;
 	display: flex;
 	justify-content: flex-end;
@@ -51,7 +52,7 @@ const Nav = styled.nav`
 		font-size: 3rem;
 	}
 `
-const LandingHero = styled.section`
+const LandingStyles = styled.section`
 	color: whitesmoke;
 	display: flex;
 	flex-flow: column;
@@ -60,17 +61,40 @@ const LandingHero = styled.section`
 	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(${bg});
 	background-size: cover;
 	height: 100vh;
-	width: 95%;
-	margin: auto;
+	border-left: 2px solid whitesmoke;
+	border-right: 2px solid whitesmoke;
 
 	#page-header {
-		font-size: 6rem;
+		font-size: 5rem;
 	}
 
 	.landing-p {
 		font-size: 1.5rem;
 	}
 
+`
+
+const AboutStyles = styled.section`
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	width: 60%;
+	margin: auto;
+
+	.about-header {
+		font-size: 2.5rem;
+		margin: 2% 0%;
+	}
+
+	.about-p {
+		font-size: 1.3rem;
+		margin: 2% 0%;
+	}
+
+	#ps {
+		font-size: 1.2rem;
+		margin: 3% 0%;
+	}
 `
 
 // resusable utility styling components
@@ -81,7 +105,8 @@ const ColorSpan = styled.span`
 export {
 	AppStyles,
 	Container,
-	Nav,
-	LandingHero,
+	NavStyles,
+	LandingStyles,
+	AboutStyles,
 	ColorSpan,
 }
