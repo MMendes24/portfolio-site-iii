@@ -14,7 +14,7 @@ const Portfolio = () => {
                 <p className="stack">Stack: HTML | <ColorSpan>React</ColorSpan> | <ColorSpan>Node</ColorSpan> | Express | Knex | Jest | Supertest | CSS</p>
                 <p className="bullet">• Functioned as a <ColorSpan>Back-End Developer</ColorSpan>on a remote team of 8 to deliver a secure API in <ColorSpan>4 days</ColorSpan></p>
                 <p className="bullet">• Wrote <ColorSpan>dozens of unit and integrated tests</ColorSpan> to ensure API stability and operation</p>
-                <p className="bullet">• Created all necessary endpoints and routers for CRUD operations in addition to seed data</p>
+                <p className="bullet">• Created all endpoints and routers for CRUD operations and seed data</p>
 
             </div>
             <img className="project-img" src={expatjournal} alt="travel items"></img>
@@ -25,7 +25,7 @@ const Portfolio = () => {
                 <p className="bullet">• Worked on a <ColorSpan>remote team of 7</ColorSpan> to code and deploy a blogging platform <ColorSpan>in 4 days</ColorSpan></p>
                 <p className="bullet">• Implemented Redux as a state management system capable of <ColorSpan>scaling with the app throughout its life</ColorSpan></p>
                 <p className="bullet">• Coded 6 <ColorSpan>modular, reusable, components</ColorSpan> that allowed users to perform all requisite CRUD operations</p>
-                <p className="bullet">• Handled <ColorSpan>authorization through JWT</ColorSpan> to ensure all necessary data was protected from the public</p>
+                <p className="bullet">• Added <ColorSpan>authorization</ColorSpan> to ensure all data was protected from the public as required</p>
             </div>
         </PortfolioStyles>
     )

@@ -39,7 +39,7 @@ const NavStyles = styled.nav`
 		text-decoration: none;
 		font-size: 1.5rem;
 		margin: 0% 1%;
-		padding: 0% 1%;
+		padding: 0.5% 1%;
 		border: 3px solid #262626;
 		border-radius: 10%;
 	}
@@ -62,8 +62,6 @@ const LandingStyles = styled.section`
 	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(${bg});
 	background-size: cover;
 	height: 100vh;
-	border-left: 2px solid whitesmoke;
-	border-right: 2px solid whitesmoke;
 
 	#page-header {
 		font-size: 5rem;
@@ -84,7 +82,7 @@ const AboutStyles = styled.section`
 
 	.about-header {
 		font-size: 2.5rem;
-		margin: 2% 0%;
+		margin: 3% 0%;
 	}
 
 	.about-p {
@@ -107,23 +105,23 @@ const PortfolioStyles = styled.section`
 		width: 50%;
 		border: 2px solid #262626;
 		border-radius: 5%;
-		margin: 1% 0%;
+		margin: 3% 0%;
 	}
 
 	.project-header {
 		font-size: 2.5rem;
-		margin: 2% 0%;
+		margin: 3% 0%;
 	}
 
 	.project-subheader {
 		font-size: 1.5rem;
-		margin: 2% 0%;
+		margin: 2% auto;
 	}
 
 	.project {
 		width: 60%;
-		margin: auto;
 		padding: 2%;
+		border-bottom: 3px solid #262626;
 	}
 
 	.project-link {
@@ -155,7 +153,7 @@ const ContactStyles = styled.footer`
 
 	.contact-header {
 		font-size: 2.5rem;
-		margin: 1% 0%;
+		margin: 3% 0%;
 	}
 
 	.contact-wrapper {
