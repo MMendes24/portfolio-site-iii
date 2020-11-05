@@ -5,6 +5,7 @@ import NavBar from './components/NavBar'
 import Landing from './components/Landing'
 import About from './components/About'
 import Portfolio from './components/Portfolio'
+import Contact from './components/Contact'
 
 // styles
 import {
@@ -22,6 +23,7 @@ function App() {
         <Landing />
         <About />
         <Portfolio />
+        <Contact />
       </Container>
     </AppStyles>
   )

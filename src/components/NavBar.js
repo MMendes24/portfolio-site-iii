@@ -26,7 +26,16 @@ const NavBar = () => {
                 className="nav-link">
                 Portfolio</Link>
 
-            <Link className="nav-link">Contact</Link>
+            
+                <Link activeClass="active"
+                to="contact-header"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                className="nav-link">
+                Contact</Link>
+
             <a className="social-link" href="https://github.com/MMendes24">
                 <i class="fab fa-github-square"></i>
             </a>
