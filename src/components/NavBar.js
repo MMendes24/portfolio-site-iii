@@ -13,10 +13,19 @@ const NavBar = () => {
                 spy={true}
                 smooth={true}
                 offset={-70}
-                duration={500} className="nav-link">
+                duration={500}
+                className="nav-link">
                 About</Link>
-                
-            <Link className="nav-link">Portfolio</Link>
+
+            <Link activeClass="active"
+                to="project-header"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                className="nav-link">
+                Portfolio</Link>
+
             <Link className="nav-link">Contact</Link>
             <a className="social-link" href="https://github.com/MMendes24">
                 <i class="fab fa-github-square"></i>
