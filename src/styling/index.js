@@ -7,7 +7,7 @@ flex-flow: column;
 align-items: center;
 font-family: 'Roboto Mono', monospace;
 background-color: whitesmoke;
-width: 80%;
+width: 90%;
 margin: auto;
 
 `
@@ -25,11 +25,19 @@ const Nav = styled.nav`
 	text-decoration: none;
 	padding: 1% 0%;
 
+	.page-header {
+		font-size: 2rem;
+		width: 50%;
+	}
+
 	.nav-link {
 		color: #262626;
 		text-decoration: none;
-		font-size: 2rem;
-		margin: 0% 1%
+		font-size: 1.5rem;
+		margin: 0% 1%;
+		padding: 0% 1%;
+		border: 3px solid #262626;
+		border-radius: 10%;
 	}
 
 	.social-link {
@@ -42,8 +50,13 @@ const Nav = styled.nav`
 	}
 `
 
+const ColorSpan = styled.span`
+	color: #a1251b;
+`
+
 export {
 	AppStyles,
 	Container,
-	Nav
+	Nav,
+	ColorSpan,
 }
