@@ -110,6 +110,12 @@ const AboutStyles = styled.section`
 		margin: 3% 0%;
 	}
 
+	.profile {
+		width: 33%;
+		border-radius: 5%;
+		margin: 1% 0%;
+	}
+
 	i.fas {
 		font-size: 1.2rem;
 		color: #a1251b;
