@@ -114,7 +114,9 @@ const AboutStyles = styled.section`
 	flex-flow: column;
 	align-items: center;
 	width: 60%;
-	margin: auto;
+	padding: 2%;
+	margin: 2% auto;
+	box-shadow: 0 0 5px #888888;
 
 	.about-header {
 		font-size: 2.5rem;
@@ -133,6 +135,7 @@ const AboutStyles = styled.section`
 
 	.profile {
 		width: 40%;
+		box-shadow: 0 0 5px #888888;
 		border-radius: 5%;
 		margin: 3% 0%;
 	}
@@ -152,6 +155,7 @@ const PortfolioStyles = styled.section`
 	flex-flow: column;
 	align-items: center;
 	justify-content: center;
+	margin: 3% 0%;
 
 	.project-img {
 		width: 50%;
@@ -179,17 +183,18 @@ const PortfolioStyles = styled.section`
 		display: flex;
 		flex-flow: column;
 		align-items: center;
-		width: 33%;
+		width: 25%;
 		padding: 2%;
 		border-radius: 5%;
 		margin: 0% 2%;
-		transition: all 0.7s ease 0s;
-		box-shadow: 3px 5px 5px #888888;
+		transition: all 0.3s ease 0s;
+		box-shadow: 0 0 5px #888888;
+		background-color: #E8E8E8;
 	}
 
 	.project:hover {
 		transform: translateY(-10px);
-		box-shadow: 5px 7px 7px #888888;
+		box-shadow: 0 0 7px #888888;
 	}
 
 	.project-link {
@@ -206,6 +211,7 @@ const PortfolioStyles = styled.section`
 
 	.desc {
 		font-size: 1rem;
+		width: 75%;
 		margin: 2% 0%;
 	}
 
@@ -224,6 +230,9 @@ const ContactStyles = styled.footer`
 	display: flex;
 	flex-flow: column;
 	align-items: center;
+	border-top: 3px solid black;
+	width: 90%;
+	margin: auto;
 
 	.attribution {
 		font-size: 0.8rem;
@@ -240,7 +249,7 @@ const ContactStyles = styled.footer`
 
 	.contact-header {
 		font-size: 2.5rem;
-		margin: 1% 0%;
+		margin: 3% 0%;
 	}
 
 	.contact-wrapper {
