@@ -176,6 +176,19 @@ const ContactStyles = styled.footer`
 	flex-flow: column;
 	align-items: center;
 
+	.attribution {
+		font-size: 0.8rem;
+		margin: 1% 0%;
+	}
+
+	.attribution a {
+		text-decoration: none;
+	}
+
+	.contact-link {
+		margin: 0% 1%;
+	}
+
 	.contact-header {
 		font-size: 2.5rem;
 		margin: 1% 0%;
@@ -184,8 +197,7 @@ const ContactStyles = styled.footer`
 	.contact-wrapper {
 		width: 50%;
 		display: flex;
-		justify-content: space-between;
-		padding: 1%;
+		justify-content: center;
 		margin: 1% auto;
 	}
 
@@ -197,22 +209,7 @@ const ContactStyles = styled.footer`
 		outline: none;
 	}
 
-	i.fas {
-		font-size: 4rem;
-		color: #262626;
-		margin: 0% 3%;
-		transition: all 0.3s ease 0s;
-		cursor: pointer;
-		outline: none;
-	}
-
-	
 	i.fab:hover {
-		color: #a1251b;
-		transform: translateY(-5px);
-	}
-
-	i.fas:hover {
 		color: #a1251b;
 		transform: translateY(-5px);
 	}

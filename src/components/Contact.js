@@ -17,8 +17,8 @@ const Contact = () => {
                 <a className="contact-link" href="https://www.linkedin.com/in/marsdmendes/">
                     <i class="fab fa-linkedin"></i>
                 </a>
-                <i class="fas fa-envelope-square"></i>
             </div>
+            <div className="attribution">Website icon made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
         </ContactStyles>
     )
 }
