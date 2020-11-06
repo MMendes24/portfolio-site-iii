@@ -24,10 +24,25 @@ const Container = styled.div`
 const NavStyles = styled.nav`
 	width: 100%;
 	display: flex;
-	justify-content: flex-end;
+	justify-content: center;
 	color: #262626;
 	text-decoration: none;
 	padding: 1% 0%;
+	width: 90%;
+	margin: auto;
+
+	.site-header {
+		font-size: 2rem;
+		width: 50%;
+		display: flex;
+		justify-content: flex-start;
+	}
+
+	.nav-wrapper {
+		width: 50%;
+		display: flex;
+		justify-content: flex-end;
+	}
 
 	.nav-link {
 		color: #262626;
@@ -64,6 +79,12 @@ const NavStyles = styled.nav`
 
 	i.fas {
 		font-size: 2rem;
+	}
+
+	.scrolled {
+  		position: fixed;
+  		top: 0;
+  		left: 0;
 	}
 	  
 `
@@ -113,7 +134,7 @@ const AboutStyles = styled.section`
 	.profile {
 		width: 33%;
 		border-radius: 5%;
-		margin: 1% 0%;
+		margin: 3% 0%;
 	}
 
 	i.fas {
@@ -131,7 +152,6 @@ const PortfolioStyles = styled.section`
 	flex-flow: column;
 	align-items: center;
 	justify-content: center;
-	border-bottom: 3px solid #262626;
 
 	.project-img {
 		width: 50%;
@@ -146,8 +166,13 @@ const PortfolioStyles = styled.section`
 	}
 
 	.project-subheader {
-		font-size: 1.5rem;
+		font-size: 1.3rem;
+		text-decoration: underline;
 		margin: 2% auto;
+	}
+
+	h3 {
+		font-size: 1.2rem;
 	}
 
 	.project {
@@ -171,16 +196,11 @@ const PortfolioStyles = styled.section`
 	}
 
 	.desc {
-		font-size: 1.2rem;
-		margin: 1% 0%;
+		font-size: 1.1rem;
+		margin: 2% 0%;
 	}
 
 	.stack {
-		font-size: 1.2rem;
-		margin: 3% 0%;
-	}
-
-	.bullet {
 		font-size: 1.1rem;
 		margin: 2% 0%;
 	}

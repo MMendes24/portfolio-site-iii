@@ -5,6 +5,7 @@ const Contact = () => {
     return (
         <ContactStyles>
             <h2 className="contact-header">Contact</h2>
+            <div>mdmbusiness2@gmail.com</div>
             <div className="contact-wrapper">
                 <a className="contact-link" href="https://github.com/MMendes24">
                     <i class="fab fa-github-square"></i>
