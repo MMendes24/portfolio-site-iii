@@ -189,12 +189,11 @@ const PortfolioStyles = styled.section`
 		margin: 0% 2%;
 		transition: all 0.3s ease 0s;
 		box-shadow: 0 0 5px #888888;
-		background-color: #E8E8E8;
 	}
 
 	.project:hover {
 		transform: translateY(-10px);
-		box-shadow: 0 0 7px #888888;
+		box-shadow: 0 0 10px #888888;
 	}
 
 	.project-link {
