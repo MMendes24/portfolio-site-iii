@@ -15,7 +15,7 @@ const About = () => {
 
             <p className="about-p">I am happily married and love my wife and our two cats very much. It would be impossible to devote so much to what I do without them. Together we've gone to Virginia, California, New York, North Carolina, Louisiana, Mississippi, Pennsylvania, and more, sometimes to visit and sometimes to live. <ColorSpan>Currently I am looking for remote work</ColorSpan>, but I can relocate anywhere as needed.</p>
 
-            <p id="ps"><i class="fas fa-rocket"></i> (p.s. the color is "<ColorSpan>Martian Red</ColorSpan>" if you were wondering.) <i class="fas fa-rocket"></i></p>
+            <p id="ps"><i className="fas fa-rocket"></i> (p.s. the color is "<ColorSpan>Martian Red</ColorSpan>" if you were wondering.) <i className="fas fa-rocket"></i></p>
 
         </AboutStyles>
     )

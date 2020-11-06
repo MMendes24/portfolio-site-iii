@@ -1,5 +1,5 @@
 import React from "react"
-import { PortfolioStyles, ColorSpan } from "../styling"
+import { PortfolioStyles } from "../styling"
 import wunderlist from "../assets/WunderlistScreenie.png"
 import expatjournal from "../assets/exj.jpg"
 

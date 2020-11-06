@@ -15,7 +15,7 @@ const NavBar = () => {
                     offset={-70}
                     duration={500}
                     className="nav-link">
-                    Home <i class="fas fa-home"></i></Link>
+                    Home <i className="fas fa-home"></i></Link>
                 <Link
                     activeClass="active"
                     to="about-header"
@@ -24,7 +24,7 @@ const NavBar = () => {
                     offset={-70}
                     duration={500}
                     className="nav-link">
-                    About <i class="fas fa-user"></i></Link>
+                    About <i className="fas fa-user"></i></Link>
 
                 <Link activeClass="active"
                     to="project-header"
@@ -33,7 +33,7 @@ const NavBar = () => {
                     offset={-70}
                     duration={500}
                     className="nav-link">
-                    Portfolio <i class="fas fa-folder"></i></Link>
+                    Portfolio <i className="fas fa-folder"></i></Link>
 
 
                 <Link activeClass="active"
@@ -43,7 +43,7 @@ const NavBar = () => {
                     offset={-70}
                     duration={500}
                     className="nav-link">
-                    Contact <i class="fas fa-coffee"></i></Link>
+                    Contact <i className="fas fa-coffee"></i></Link>
             </div>
         </NavStyles>
     )

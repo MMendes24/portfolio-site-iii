@@ -271,6 +271,20 @@ const ContactStyles = styled.footer`
 		transform: translateY(-5px);
 	}
 
+	i.fas {
+		font-size: 4rem;
+		color: #262626;
+		transition: all 0.3s ease 0s;
+		cursor: pointer;
+		outline: none;
+		margin: 0% 1%;
+	}
+
+	i.fas:hover {
+		color: #a1251b;
+		transform: translateY(-5px);
+	}
+
 `
 
 // resusable utility styling components

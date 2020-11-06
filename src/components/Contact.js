@@ -2,21 +2,30 @@ import React from "react"
 import { ContactStyles } from '../styling'
 
 const Contact = () => {
+    const email = "mdmbusiness2@gmail.com"
+
+    const onMailClick = email => navigator.clipboard.writeText(email).then(function() {
+      console.log('Email address successfully copied!');
+    }, function(err) {
+      console.error('Could not copy email address')
+    })
+
     return (
         <ContactStyles>
             <h2 className="contact-header">Contact</h2>
             <div className="contact-wrapper">
                 <a className="contact-link" href="https://github.com/MMendes24">
-                    <i class="fab fa-github-square"></i>
+                    <i className="fab fa-github-square"></i>
                 </a>
 
                 <a className="contact-link" href="https://twitter.com/MarsMendes2">
-                    <i class="fab fa-twitter-square"></i>
+                    <i className="fab fa-twitter-square"></i>
                 </a>
 
                 <a className="contact-link" href="https://www.linkedin.com/in/marsdmendes/">
-                    <i class="fab fa-linkedin"></i>
+                    <i className="fab fa-linkedin"></i>
                 </a>
+                <i className="fas fa-envelope-square" onClick={() => onMailClick(email)}></i>
             </div>
             <div className="attribution">Website icon made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
         </ContactStyles>
