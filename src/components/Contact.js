@@ -1,10 +1,10 @@
 import React from "react"
-import { ContactStyles, ColorSpan } from '../styling'
+import { ContactStyles } from '../styling'
 
 const Contact = () => {
     return (
         <ContactStyles>
-            <h2 className="contact-header"><ColorSpan>Contact</ColorSpan></h2>
+            <h2 className="contact-header">Contact</h2>
             <div className="contact-wrapper">
                 <a className="contact-link" href="https://github.com/MMendes24">
                     <i class="fab fa-github-square"></i>

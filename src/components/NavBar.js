@@ -13,7 +13,7 @@ const NavBar = () => {
                 offset={-70}
                 duration={500}
                 className="nav-link">
-                About <i class="fas fa-rocket"></i></Link>
+                About <i class="fas fa-user"></i></Link>
 
             <Link activeClass="active"
                 to="project-header"
