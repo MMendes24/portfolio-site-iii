@@ -15,8 +15,8 @@ const Portfolio = () => {
                     <h3>Back-End Developer</h3>
                     <h3>September 2020</h3>
                     <p className="desc">To-do list app designed to give users a way to manage hectic modern lifestyles</p>
-                    <h3>Stack</h3>
-                    <p className="stack">HTML | <ColorSpan>React</ColorSpan> | <ColorSpan>Node</ColorSpan> | Express | Knex | Jest | Supertest | CSS</p>
+                    {/* <h3 className="tech-header">Stack</h3>
+                    <p className="stack">HTML | <ColorSpan>React</ColorSpan> | <ColorSpan>Node</ColorSpan> | Express | Knex | Jest | Supertest | CSS</p> */}
 
                 </div>
                 <div className="project">
@@ -26,8 +26,8 @@ const Portfolio = () => {
                     <h3>Front-End Developer</h3>
                     <h3>August 2020</h3>
                     <p className="desc">Online blogging platform to allow American expatriates to share their experiences abroad</p>
-                    <h3>Stack</h3>
-                    <p className="stack">HTML | CSS | <ColorSpan>React</ColorSpan> | <ColorSpan>Redux</ColorSpan> | |React-Redux | Redux-Thunk | Node | Express | Jest | Supertest</p>
+                    {/* <h3 className="tech-header">Stack</h3>
+                    <p className="stack">HTML | CSS | <ColorSpan>React</ColorSpan> | <ColorSpan>Redux</ColorSpan> | |React-Redux | Redux-Thunk | Node | Express | Jest | Supertest</p> */}
                 </div>
             </div>
         </PortfolioStyles>

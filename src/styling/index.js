@@ -132,7 +132,7 @@ const AboutStyles = styled.section`
 	}
 
 	.profile {
-		width: 33%;
+		width: 40%;
 		border-radius: 5%;
 		margin: 3% 0%;
 	}
@@ -179,8 +179,17 @@ const PortfolioStyles = styled.section`
 		display: flex;
 		flex-flow: column;
 		align-items: center;
-		width: 50%;
+		width: 33%;
 		padding: 2%;
+		border-radius: 5%;
+		margin: 0% 2%;
+		transition: all 0.7s ease 0s;
+		box-shadow: 3px 5px 5px #888888;
+	}
+
+	.project:hover {
+		transform: translateY(-10px);
+		box-shadow: 5px 7px 7px #888888;
 	}
 
 	.project-link {
@@ -196,7 +205,12 @@ const PortfolioStyles = styled.section`
 	}
 
 	.desc {
-		font-size: 1.1rem;
+		font-size: 1rem;
+		margin: 2% 0%;
+	}
+
+	.tech-header {
+		font-size: 1.3rem;
 		margin: 2% 0%;
 	}
 
