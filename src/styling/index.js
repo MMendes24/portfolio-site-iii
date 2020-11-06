@@ -131,10 +131,11 @@ const PortfolioStyles = styled.section`
 	flex-flow: column;
 	align-items: center;
 	justify-content: center;
+	border-bottom: 3px solid #262626;
 
 	.project-img {
-		width: 40%;
-		border: 2px solid #262626;
+		width: 50%;
+		border: 1px solid #262626;
 		border-radius: 5%;
 		margin-top: 3%;
 	}
@@ -150,15 +151,23 @@ const PortfolioStyles = styled.section`
 	}
 
 	.project {
+		display: flex;
+		flex-flow: column;
+		align-items: center;
 		width: 50%;
 		padding: 2%;
-		border-bottom: 3px solid #262626;
 	}
 
 	.project-link {
 		color: #a1251b;
 		text-decoration: none;
 		font-weight: 600;
+	}
+
+	.project-wrapper {
+		display: flex;
+		justify-content: center;
+		margin: 2% 0%;
 	}
 
 	.desc {
