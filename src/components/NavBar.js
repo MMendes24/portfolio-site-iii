@@ -1,52 +1,50 @@
-import React from "react"
+import React, { useState, useEffect } from "react"
 import { Link } from "react-scroll";
 import { NavStyles, ColorSpan } from "../styling"
 
 const NavBar = () => {
     return (
         <NavStyles>
-            <h2 className="page-header"><ColorSpan>Mars </ColorSpan>Mendes</h2>
+            <h2 className="site-header"><ColorSpan>marsmendes</ColorSpan>.tech</h2>
+            <div className="nav-wrapper">
+                <Link
+                    activeClass="active"
+                    to="page-header"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                    className="nav-link">
+                    Home <i className="fas fa-home"></i></Link>
+                <Link
+                    activeClass="active"
+                    to="about-header"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                    className="nav-link">
+                    About <i className="fas fa-user"></i></Link>
 
-            <Link
-                activeClass="active"
-                to="about-header"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                className="nav-link">
-                About</Link>
-
-            <Link activeClass="active"
-                to="project-header"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                className="nav-link">
-                Portfolio</Link>
-
-            
                 <Link activeClass="active"
-                to="contact-header"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                className="nav-link">
-                Contact</Link>
+                    to="project-header"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                    className="nav-link">
+                    Portfolio <i className="fas fa-folder"></i></Link>
 
-            <a className="social-link" href="https://github.com/MMendes24">
-                <i class="fab fa-github-square"></i>
-            </a>
 
-            <a className="social-link" href="https://twitter.com/MarsMendes2">
-                <i class="fab fa-twitter-square"></i>
-            </a>
-
-            <a className="social-link" href="https://www.linkedin.com/in/marsdmendes/">
-                <i class="fab fa-linkedin"></i>
-            </a>
+                <Link activeClass="active"
+                    to="contact-header"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                    className="nav-link">
+                    Contact <i className="fas fa-coffee"></i></Link>
+            </div>
         </NavStyles>
     )
 }
