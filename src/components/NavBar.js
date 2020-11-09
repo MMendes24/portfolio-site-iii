@@ -24,7 +24,7 @@ const NavBar = () => {
                 <div className="nav-wrapper">
                     <Link
                         activeClass="active"
-                        to="page-header"
+                        to="sticky-wrapper"
                         spy={true}
                         smooth={true}
                         offset={-70}
