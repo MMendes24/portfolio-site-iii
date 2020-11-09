@@ -1,7 +1,7 @@
 import React from 'react'
 
 // components
-import NavBar from './components/NavBar'
+import NavWrapper from './components/NavWrapper'
 import Landing from './components/Landing'
 import About from './components/About'
 import Portfolio from './components/Portfolio'
@@ -19,7 +19,7 @@ function App() {
   return (
     <AppStyles>
       <Container>
-        <NavBar />
+        <NavWrapper />
         <Landing />
         <About />
         <Portfolio />

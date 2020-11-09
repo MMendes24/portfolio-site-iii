@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react"
+import React from "react"
 import { Link } from "react-scroll";
 import { NavStyles, ColorSpan } from "../styling"
 
@@ -6,7 +6,7 @@ const NavBar = () => {
     return (
         <NavStyles>
             <h2 className="site-header"><ColorSpan>marsmendes</ColorSpan>.tech</h2>
-            <div className="nav-wrapper">
+            <div className="nav-wrapper sticky-inner">
                 <Link
                     activeClass="active"
                     to="page-header"

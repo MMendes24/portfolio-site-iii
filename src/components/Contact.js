@@ -25,7 +25,7 @@ const Contact = () => {
                 <a className="contact-link" href="https://www.linkedin.com/in/marsdmendes/">
                     <i className="fab fa-linkedin"></i>
                 </a>
-                <i className="fas fa-envelope-square" onClick={() => onMailClick(email)}></i>
+                <i className="fas fa-envelope-square tooltip" onClick={() => onMailClick(email)}><span className="tooltip-text">Click to copy my email address!</span></i>
             </div>
             <div className="attribution">Website icon made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
         </ContactStyles>

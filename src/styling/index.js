@@ -81,10 +81,23 @@ const NavStyles = styled.nav`
 		font-size: 2rem;
 	}
 
-	.scrolled {
-  		position: fixed;
-  		top: 0;
-  		left: 0;
+	.sticky-wrapper {
+		  position: relative;
+		  height: 2rem;
+	}
+
+	.sticky {
+		position: sticky;
+		top: 0;
+		z-index: 100; /* this is optional and should be different for every project */
+	}
+
+	.sticky .sticky-inner {
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		z-index: 1;
 	}
 	  
 `
@@ -116,6 +129,7 @@ const AboutStyles = styled.section`
 	width: 60%;
 	padding: 2%;
 	margin: 2% auto;
+	border-radius: 5%;
 	box-shadow: 0 0 5px #888888;
 
 	.about-header {
@@ -283,6 +297,30 @@ const ContactStyles = styled.footer`
 	i.fas:hover {
 		color: #a1251b;
 		transform: translateY(-5px);
+	}
+
+	.tooltip {
+		position: relative;
+		display: flex;
+	}
+
+	.tooltip-text {
+		font-size: 1.3rem;
+		visibility: hidden;
+  		background-color: #262626;
+  		color: whitesmoke;
+		text-align: center;
+		padding: 10%;
+  		border-radius: 5%;
+  		position: absolute;
+		z-index: 1;
+		bottom: 100%;
+  		left: 50%;
+	}
+
+
+	.tooltip:hover .tooltip-text {
+  		visibility: visible;
 	}
 
 `
