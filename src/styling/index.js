@@ -5,12 +5,30 @@ const AppStyles = styled.div`
 
 display: flex;
 flex-flow: column;
-align-items: center;
+justify-content: center;
 font-family: 'Roboto Mono', monospace;
 background-color: whitesmoke;
 width: 80%;
 margin: auto;
 color: #262626;
+
+
+.sticky-wrapper {
+		position: relative;
+		display: flex;
+		justify-content: center;
+		width: 80%;
+		margin: auto;
+		height: 2rem;
+	}
+
+	.sticky .nav-wrapper {
+		position: fixed;
+		width: 80%;
+		opacity: 0.9;
+		top: 0;
+	}
+
 
 
 `
@@ -20,28 +38,24 @@ const Container = styled.div`
 	display: flex;
 	flex-flow: column;
 	justify-content: center;
+
 `
 const NavStyles = styled.nav`
 	width: 100%;
 	display: flex;
-	justify-content: center;
+	justify-content: flex-end;
 	color: #262626;
 	text-decoration: none;
 	padding: 1% 0%;
-	width: 90%;
-	margin: auto;
-
-	.site-header {
-		font-size: 2rem;
-		width: 50%;
-		display: flex;
-		justify-content: flex-start;
-	}
 
 	.nav-wrapper {
-		width: 50%;
+		position: fixed;
 		display: flex;
 		justify-content: flex-end;
+		background-color: whitesmoke;
+		top: 0;
+		width: 80%;
+		margin: auto;
 	}
 
 	.nav-link {
@@ -81,25 +95,6 @@ const NavStyles = styled.nav`
 		font-size: 2rem;
 	}
 
-	.sticky-wrapper {
-		  position: relative;
-		  height: 2rem;
-	}
-
-	.sticky {
-		position: sticky;
-		top: 0;
-		z-index: 100; /* this is optional and should be different for every project */
-	}
-
-	.sticky .sticky-inner {
-		position: fixed;
-		top: 0;
-		left: 0;
-		right: 0;
-		z-index: 1;
-	}
-	  
 `
 const LandingStyles = styled.section`
 	color: whitesmoke;
