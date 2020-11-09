@@ -3,10 +3,9 @@ import { ContactStyles } from '../styling'
 
 const Contact = () => {
     const email = "mdmbusiness2@gmail.com"
-
-    const onMailClick = email => navigator.clipboard.writeText(email).then(function() {
+    const onMailClick = email => navigator.clipboard.writeText(email).then(() => {
       console.log('Email address successfully copied!');
-    }, function(err) {
+    }, () => {
       console.error('Could not copy email address')
     })
 
@@ -31,5 +30,6 @@ const Contact = () => {
         </ContactStyles>
     )
 }
+
 
 export default Contact

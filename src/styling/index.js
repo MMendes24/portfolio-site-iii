@@ -13,23 +13,13 @@ margin: auto;
 color: #262626;
 
 
-.sticky-wrapper {
-		position: relative;
-		display: flex;
-		justify-content: center;
-		width: 80%;
-		margin: auto;
-		height: 2rem;
-	}
-
 	.sticky .nav-wrapper {
 		position: fixed;
 		width: 80%;
-		opacity: 0.9;
 		top: 0;
+		background-color: #262626;
+		opacity: 0.9;
 	}
-
-
 
 `
 const Container = styled.div`
@@ -52,7 +42,7 @@ const NavStyles = styled.nav`
 		position: fixed;
 		display: flex;
 		justify-content: space-around;
-		background-color: whitesmoke;
+		color: whitesmoke;
 		top: 0;
 		width: 80%;
 		margin: auto;
@@ -65,7 +55,7 @@ const NavStyles = styled.nav`
 	}
 
 	.nav-link {
-		color: #262626;
+		color: whitesmoke;
 		text-decoration: none;
 		font-size: 1.5rem;
 		margin: 0% 1%;
@@ -206,7 +196,10 @@ const PortfolioStyles = styled.section`
 		box-shadow: 0 0 5px #888888;
 	}
 
-
+	.project:hover {
+		transform: translateY(-5px);
+		box-shadow: 0 0 10px #888888;
+	}
 
 	.project-link {
 		color: #a1251b;

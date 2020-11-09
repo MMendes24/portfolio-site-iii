@@ -19,7 +19,6 @@ function App() {
   return (
     <AppStyles>
       <Container>
-        <NavBar />
         <Landing />
         <About />
         <Portfolio />
