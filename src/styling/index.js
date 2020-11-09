@@ -26,6 +26,11 @@ color: #262626;
 	opacity: 0.9;
 }
 
+@media(max-width: 1024px) {
+		.sticky-wrapper {
+			height:1.5rem;
+		}
+	}
 `
 const Container = styled.div`
 	width: 100%;
@@ -102,6 +107,20 @@ const NavStyles = styled.nav`
 		}
 	}
 
+	@media(max-width: 1024px) {
+		.site-header {
+			font-size: 1.3rem;
+		}
+
+		.nav-link {
+			font-size: 1rem;
+		}
+
+		i.fas {
+			font-size: 1rem;
+		}
+	}
+
 `
 const LandingStyles = styled.section`
 	color: whitesmoke;
@@ -120,6 +139,14 @@ const LandingStyles = styled.section`
 
 	.landing-p {
 		font-size: 2rem;
+	}
+
+	@media(max-width: 1024px) {
+		height: 60vh;
+
+		#page-header {
+			font-size: 3rem;
+		}
 	}
 
 `
@@ -169,6 +196,18 @@ const AboutStyles = styled.section`
 	@media(max-width: 1200px) {
 		width: 70%;
 		padding: 10%;
+	}
+
+	@media(max-width: 1024px) {
+		padding: 5%;
+
+		.about-p {
+			font-size: 1.1rem;
+		}
+
+		#ps {
+			font-size: 0.8rem;
+		}
 	}
 	
 `
@@ -244,6 +283,12 @@ const PortfolioStyles = styled.section`
 	@media(max-width: 1200px) {
 		.project {
 			width: 33%;
+		}
+	}
+
+	@media(max-width: 1024px) {
+		.project {
+			width: 40%;
 		}
 	}
 `
