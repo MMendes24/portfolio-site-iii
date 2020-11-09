@@ -37,6 +37,19 @@ color: #262626;
 			height:1.5rem;
 		}
 	}
+
+@media(max-width: 480px) {
+		.sticky .nav-wrapper {
+			position: absolute;
+			opacity: 1.0;
+		}
+
+		.sticky-wrapper {
+			display: flex;
+			justify-content: center;
+			height:9rem;
+		}
+	}
 `
 const Container = styled.div`
 	width: 100%;
@@ -141,6 +154,21 @@ const NavStyles = styled.nav`
 		}
 	}
 
+	@media(max-width: 480px) {
+		.site-header {
+			font-size: 1.5rem;
+			margin: 3% 0%;
+		}
+
+		.nav-wrapper {
+			position: absolute;
+			display: flex;
+			flex-flow: column;
+			justify-content: flex-start;
+			align-items: center;
+		}
+	}
+
 `
 const LandingStyles = styled.section`
 	color: whitesmoke;
@@ -176,6 +204,18 @@ const LandingStyles = styled.section`
 			font-size: 3rem;
 		}
 	}
+
+	@media(max-width: 480px) {
+		height: 40vh;
+
+		#page-header {
+			font-size: 2rem;
+		}
+
+		.landing-p {
+			font-size: 1rem;
+	}
+}
 
 `
 
@@ -239,6 +279,7 @@ const AboutStyles = styled.section`
 	}
 
 	@media(max-width: 768px) {
+		border-radius: 2%;
 		width: 80%;
 
 		.about-p {
@@ -247,6 +288,22 @@ const AboutStyles = styled.section`
 
 		#ps {
 			font-size: 0.8rem;
+		}
+	}
+
+	@media(max-width: 480px) {
+		width: 80%;
+
+		.about-p {
+			font-size: 1rem;
+		}
+
+		#ps {
+			font-size: 0.9rem;
+		}
+
+		i.fas {
+			font-size: 1rem;
 		}
 	}
 	
@@ -345,6 +402,17 @@ const PortfolioStyles = styled.section`
 			width: 50%;
 		}
 	}
+
+	@media(max-width: 480px) {
+		h3 {
+			font-size: 1rem;
+			margin: 1% 8%;
+		}
+
+		.project {
+			width: 70%;
+		}
+	}
 `
 
 const ContactStyles = styled.footer`
@@ -428,6 +496,13 @@ const ContactStyles = styled.footer`
 
 	.tooltip:hover .tooltip-text {
   		visibility: visible;
+	}
+
+	@media(max-width: 480px) {
+	.attribution {
+		font-size: 1rem;
+		margin: 1% 2%;
+	}
 	}
 
 `
