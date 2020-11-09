@@ -1,12 +1,12 @@
 import React, { useEffect, useRef, useState } from "react"
 import { Link } from "react-scroll";
-import { NavStyles } from "../styling"
+import { NavStyles, ColorSpan } from "../styling"
 
 const NavBar = () => {
     const [isSticky, setSticky] = useState(false)
     const ref = useRef(null)
     const handleScroll = () => {
-        if (ref && ref.current) {
+        if (ref.current) {
             setSticky(ref.current.getBoundingClientRect().top <= 0)
         }
     }
@@ -22,6 +22,7 @@ const NavBar = () => {
     return (
         <NavStyles className={`sticky-wrapper${isSticky ? ' sticky' : ''}`} ref={ref}>
                 <div className="nav-wrapper">
+                <h2 className="site-header"><ColorSpan>marsmendes</ColorSpan>.tech</h2>
                     <Link
                         activeClass="active"
                         to="sticky-wrapper"

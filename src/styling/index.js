@@ -51,11 +51,17 @@ const NavStyles = styled.nav`
 	.nav-wrapper {
 		position: fixed;
 		display: flex;
-		justify-content: flex-end;
+		justify-content: space-around;
 		background-color: whitesmoke;
 		top: 0;
 		width: 80%;
 		margin: auto;
+	}
+
+	.site-header {
+		font-size: 1.8rem;
+		margin: 0% 1%;
+		padding: 0.5% 1%;
 	}
 
 	.nav-link {
@@ -200,10 +206,7 @@ const PortfolioStyles = styled.section`
 		box-shadow: 0 0 5px #888888;
 	}
 
-	.project:hover {
-		transform: translateY(-10px);
-		box-shadow: 0 0 10px #888888;
-	}
+
 
 	.project-link {
 		color: #a1251b;
