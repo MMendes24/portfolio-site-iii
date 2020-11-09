@@ -12,14 +12,19 @@ width: 80%;
 margin: auto;
 color: #262626;
 
+.sticky-wrapper {
+	position: relative;
+	background-color: whitesmoke;
+	height: 2rem;
+}
 
-	.sticky .nav-wrapper {
-		position: fixed;
-		width: 80%;
-		top: 0;
-		background-color: #262626;
-		opacity: 0.9;
-	}
+.sticky .nav-wrapper {
+	position: fixed;
+	width: 80%;
+	top: 0;
+	background-color: whitesmoke;
+	opacity: 0.9;
+}
 
 `
 const Container = styled.div`
@@ -42,7 +47,7 @@ const NavStyles = styled.nav`
 		position: fixed;
 		display: flex;
 		justify-content: space-around;
-		color: whitesmoke;
+		color: #262626;
 		top: 0;
 		width: 80%;
 		margin: auto;
@@ -55,7 +60,7 @@ const NavStyles = styled.nav`
 	}
 
 	.nav-link {
-		color: whitesmoke;
+		color: #262626;
 		text-decoration: none;
 		font-size: 1.5rem;
 		margin: 0% 1%;
@@ -194,11 +199,6 @@ const PortfolioStyles = styled.section`
 		margin: 0% 2%;
 		transition: all 0.3s ease 0s;
 		box-shadow: 0 0 5px #888888;
-	}
-
-	.project:hover {
-		transform: translateY(-5px);
-		box-shadow: 0 0 10px #888888;
 	}
 
 	.project-link {
