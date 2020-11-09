@@ -120,7 +120,7 @@ const NavStyles = styled.nav`
 		font-size: 2rem;
 	}
 
-	@media(max-width: 1200px) {
+	@media(max-width: 1250px) {
 		.nav-link {
 			font-size: 1.3rem;
 		}
