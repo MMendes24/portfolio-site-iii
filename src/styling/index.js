@@ -31,6 +31,12 @@ color: #262626;
 			height:1.5rem;
 		}
 	}
+
+@media(max-width: 768px) {
+		.sticky-wrapper {
+			height:1.5rem;
+		}
+	}
 `
 const Container = styled.div`
 	width: 100%;
@@ -121,6 +127,20 @@ const NavStyles = styled.nav`
 		}
 	}
 
+	@media(max-width: 768px) {
+		.site-header {
+			font-size: 1rem;
+		}
+
+		.nav-link {
+			font-size: 1rem;
+		}
+
+		i.fas {
+			font-size: 1rem;
+		}
+	}
+
 `
 const LandingStyles = styled.section`
 	color: whitesmoke;
@@ -143,6 +163,14 @@ const LandingStyles = styled.section`
 
 	@media(max-width: 1024px) {
 		height: 60vh;
+
+		#page-header {
+			font-size: 3rem;
+		}
+	}
+
+	@media(max-width: 1024px) {
+		height: 50vh;
 
 		#page-header {
 			font-size: 3rem;
@@ -203,6 +231,18 @@ const AboutStyles = styled.section`
 
 		.about-p {
 			font-size: 1.1rem;
+		}
+
+		#ps {
+			font-size: 0.8rem;
+		}
+	}
+
+	@media(max-width: 768px) {
+		width: 80%;
+
+		.about-p {
+			font-size: 1rem;
 		}
 
 		#ps {
@@ -289,6 +329,20 @@ const PortfolioStyles = styled.section`
 	@media(max-width: 1024px) {
 		.project {
 			width: 40%;
+		}
+	}
+
+	@media(max-width: 768px) {
+		.project-wrapper {
+			display: flex;
+			flex-flow: column;
+			align-items: center;
+			margin: 2% 0%;
+	}
+
+		.project {
+			margin: 2% 0%;
+			width: 50%;
 		}
 	}
 `
