@@ -7,6 +7,7 @@ const Portfolio = () => {
     return (
         <PortfolioStyles>
             <h2 className="project-header">Projects</h2>
+            <h3>Portfolio section currently under construction.</h3>
             <div className="project-wrapper">
                 <div className="project">
                     <img className="project-img" src={wunderlist} alt="homepage of wunderlist" />
@@ -15,8 +16,6 @@ const Portfolio = () => {
                     <h3>Back-End Developer</h3>
                     <h3>September 2020</h3>
                     <p className="desc">To-do list app designed to give users a way to manage hectic modern lifestyles</p>
-                    {/* <h3 className="tech-header">Stack</h3>
-                    <p className="stack">HTML | <ColorSpan>React</ColorSpan> | <ColorSpan>Node</ColorSpan> | Express | Knex | Jest | Supertest | CSS</p> */}
 
                 </div>
                 <div className="project">
@@ -26,8 +25,6 @@ const Portfolio = () => {
                     <h3>Front-End Developer</h3>
                     <h3>August 2020</h3>
                     <p className="desc">Online blogging platform to allow American expatriates to share their experiences abroad</p>
-                    {/* <h3 className="tech-header">Stack</h3>
-                    <p className="stack">HTML | CSS | <ColorSpan>React</ColorSpan> | <ColorSpan>Redux</ColorSpan> | |React-Redux | Redux-Thunk | Node | Express | Jest | Supertest</p> */}
                 </div>
             </div>
             <div className="project-wrapper">
@@ -38,9 +35,6 @@ const Portfolio = () => {
                     <h3>Back-End Developer</h3>
                     <h3>September 2020</h3>
                     <p className="desc">To-do list app designed to give users a way to manage hectic modern lifestyles</p>
-                    {/* <h3 className="tech-header">Stack</h3>
-                    <p className="stack">HTML | <ColorSpan>React</ColorSpan> | <ColorSpan>Node</ColorSpan> | Express | Knex | Jest | Supertest | CSS</p> */}
-
                 </div>
                 <div className="project">
                     <img className="project-img" src={expatjournal} alt="travel items" />
@@ -49,8 +43,6 @@ const Portfolio = () => {
                     <h3>Front-End Developer</h3>
                     <h3>August 2020</h3>
                     <p className="desc">Online blogging platform to allow American expatriates to share their experiences abroad</p>
-                    {/* <h3 className="tech-header">Stack</h3>
-                    <p className="stack">HTML | CSS | <ColorSpan>React</ColorSpan> | <ColorSpan>Redux</ColorSpan> | |React-Redux | Redux-Thunk | Node | Express | Jest | Supertest</p> */}
                 </div>
             </div>
         </PortfolioStyles>
