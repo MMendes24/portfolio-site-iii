@@ -14,15 +14,15 @@ const Contact = () => {
             <h2 className="contact-header">Contact</h2>
             <div className="contact-wrapper">
                 <a className="contact-link" href="https://github.com/MMendes24">
-                    <i className="fab fa-github-square"></i>
+                    <i className="fab fa-github-square tooltip2"></i>
                 </a>
 
                 <a className="contact-link" href="https://twitter.com/MarsMendes2">
-                    <i className="fab fa-twitter-square"></i>
+                    <i className="fab fa-twitter-square tooltip3"></i>
                 </a>
 
                 <a className="contact-link" href="https://www.linkedin.com/in/marsdmendes/">
-                    <i className="fab fa-linkedin"></i>
+                    <i className="fab fa-linkedin tooltip4"></i>
                 </a>
                 <i className="fas fa-envelope-square tooltip" onClick={() => onMailClick(email)}><span className="tooltip-text">Click to copy my email address!</span></i>
             </div>

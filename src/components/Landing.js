@@ -1,5 +1,4 @@
 import React from "react"
-import NavBar from '../components/NavBar'
 import { LandingStyles, ColorSpan } from '../styling'
 
 const Landing = () => {

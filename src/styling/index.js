@@ -294,7 +294,7 @@ const ContactStyles = styled.footer`
 		position: relative;
 		display: flex;
 	}
-
+	
 	.tooltip-text {
 		font-size: 1.3rem;
 		visibility: hidden;
@@ -308,7 +308,6 @@ const ContactStyles = styled.footer`
 		bottom: 100%;
   		left: 50%;
 	}
-
 
 	.tooltip:hover .tooltip-text {
   		visibility: visible;
