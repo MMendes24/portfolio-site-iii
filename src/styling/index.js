@@ -96,6 +96,12 @@ const NavStyles = styled.nav`
 		font-size: 2rem;
 	}
 
+	@media(max-width: 1200px) {
+		.nav-link {
+			font-size: 1.3rem;
+		}
+	}
+
 `
 const LandingStyles = styled.section`
 	color: whitesmoke;
@@ -159,6 +165,12 @@ const AboutStyles = styled.section`
 		margin-top: 2%;
 		font-size: 5rem;
 	}
+
+	@media(max-width: 1200px) {
+		width: 70%;
+		padding: 10%;
+	}
+	
 `
 const PortfolioStyles = styled.section`
 	display: flex;
@@ -228,6 +240,12 @@ const PortfolioStyles = styled.section`
 		font-size: 1.1rem;
 		margin: 2% 0%;
 	}
+
+	@media(max-width: 1200px) {
+		.project {
+			width: 33%;
+		}
+	}
 `
 
 const ContactStyles = styled.footer`
@@ -294,7 +312,7 @@ const ContactStyles = styled.footer`
 		position: relative;
 		display: flex;
 	}
-	
+
 	.tooltip-text {
 		font-size: 1.3rem;
 		visibility: hidden;
@@ -330,3 +348,4 @@ export {
 	ContactStyles,
 	ColorSpan,
 }
+
