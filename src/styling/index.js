@@ -39,6 +39,8 @@ color: #262626;
 	}
 
 @media(max-width: 480px) {
+	width: 100%;
+	
 		.sticky .nav-wrapper {
 			position: absolute;
 			opacity: 1.0;
