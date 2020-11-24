@@ -50,6 +50,8 @@ color: #262626;
 			display: flex;
 			justify-content: center;
 			height:9rem;
+			width: 50%;
+			margin: auto;
 		}
 	}
 `
@@ -158,8 +160,8 @@ const NavStyles = styled.nav`
 
 	@media(max-width: 480px) {
 		.site-header {
+			margin: 3% auto;
 			font-size: 1.5rem;
-			margin: 3% 0%;
 		}
 
 		.nav-wrapper {
@@ -167,7 +169,6 @@ const NavStyles = styled.nav`
 			display: flex;
 			flex-flow: column;
 			justify-content: flex-start;
-			align-items: center;
 		}
 	}
 
