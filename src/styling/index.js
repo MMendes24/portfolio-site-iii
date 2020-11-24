@@ -318,9 +318,9 @@ const PortfolioStyles = styled.section`
 	margin: 3% 0%;
 
 	.project-img {
-		width: 50%;
+		width: 90%;
 		border: 1px solid #262626;
-		border-radius: 5%;
+		border-radius: 2%;
 		margin-top: 3%;
 	}
 
@@ -332,10 +332,19 @@ const PortfolioStyles = styled.section`
 	.project-subheader {
 		font-size: 1.3rem;
 		text-decoration: underline;
-		margin: 2% auto;
+		margin: 4% auto;
+	}
+
+	.desc {
+		margin: 4% auto;
+	}
+
+	.notice {
+		margin: 1% auto;
 	}
 
 	h3 {
+		margin: 4% auto;
 		font-size: 1.2rem;
 	}
 
@@ -365,17 +374,7 @@ const PortfolioStyles = styled.section`
 
 	.desc {
 		font-size: 1rem;
-		width: 75%;
-		margin: 2% 0%;
-	}
-
-	.tech-header {
-		font-size: 1.3rem;
-		margin: 2% 0%;
-	}
-
-	.stack {
-		font-size: 1.1rem;
+		width: 100%;
 		margin: 2% 0%;
 	}
 

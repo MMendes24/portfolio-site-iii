@@ -1,49 +1,33 @@
 import React from "react"
 import { PortfolioStyles } from "../styling"
-import wunderlist from "../assets/WunderlistScreenie.png"
-import expatjournal from "../assets/exj.jpg"
+import cj from "../assets/cj.png"
+import cjserver from "../assets/cjserver.png"
 
 const Portfolio = () => {
     return (
         <PortfolioStyles>
             <h2 className="project-header">Projects</h2>
-            <h3>Portfolio section currently under construction.</h3>
+            <h3 className="notice">(Portfolio section currently under construction.)</h3>
             <div className="project-wrapper">
                 <div className="project">
-                    <img className="project-img" src={wunderlist} alt="homepage of wunderlist" />
-                    <h2 className="project-subheader">Wunderlist</h2>
-                    <h3><a href="https://github.com/MMendes24/wunderlistAPI" className="project-link">Github Repo</a></h3>
-                    <h3>Back-End Developer</h3>
-                    <h3>September 2020</h3>
-                    <p className="desc">To-do list app designed to give users a way to manage hectic modern lifestyles</p>
+                    <img className="project-img" src={cj} alt="campaign journal dashboard" />
+                    <h2 className="project-subheader">Campaign Journal Client</h2>
+                    <h3><a href="https://github.com/MMendes24/campaign-journal-client" className="project-link">Github Repo</a></h3>
+                    <h3>Front-End Developer</h3>
+                    <h3>November 2020</h3>
+                    <p className="desc">App that turns creating your writing and gaming projects into something simple and fun</p>
 
                 </div>
                 <div className="project">
-                    <img className="project-img" src={expatjournal} alt="travel items" />
-                    <h2 className="project-subheader">Expatjournal</h2>
-                    <h3><a href="https://github.com/MMendes24/expatjournal" className="project-link">Github Repo</a></h3>
-                    <h3>Front-End Developer</h3>
-                    <h3>August 2020</h3>
-                    <p className="desc">Online blogging platform to allow American expatriates to share their experiences abroad</p>
+                    <img className="project-img" src={cjserver} alt="campaign journal server code" />
+                    <h2 className="project-subheader">Campaign Journal Web Server</h2>
+                    <h3><a href="https://github.com/MMendes24/campaign-journal-sever" className="project-link">Github Repo</a></h3>
+                    <h3>Back-End Developer</h3>
+                    <h3>October 2020</h3>
+                    <p className="desc">Node.js/Express web server that powers the most fantastical app on the web</p>
                 </div>
             </div>
             <div className="project-wrapper">
-                <div className="project">
-                    <img className="project-img" src={wunderlist} alt="homepage of wunderlist" />
-                    <h2 className="project-subheader">Wunderlist</h2>
-                    <h3><a href="https://github.com/MMendes24/wunderlistAPI" className="project-link">Github Repo</a></h3>
-                    <h3>Back-End Developer</h3>
-                    <h3>September 2020</h3>
-                    <p className="desc">To-do list app designed to give users a way to manage hectic modern lifestyles</p>
-                </div>
-                <div className="project">
-                    <img className="project-img" src={expatjournal} alt="travel items" />
-                    <h2 className="project-subheader">Expatjournal</h2>
-                    <h3><a href="https://github.com/MMendes24/expatjournal" className="project-link">Github Repo</a></h3>
-                    <h3>Front-End Developer</h3>
-                    <h3>August 2020</h3>
-                    <p className="desc">Online blogging platform to allow American expatriates to share their experiences abroad</p>
-                </div>
             </div>
         </PortfolioStyles>
     )
