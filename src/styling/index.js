@@ -227,7 +227,7 @@ const AboutStyles = styled.section`
 	flex-flow: column;
 	align-items: center;
 	width: 60%;
-	padding: 2%;
+	padding: 1% 2%;
 	margin: 2% auto;
 	border-radius: 5%;
 	box-shadow: 0 0 5px #888888;
@@ -248,7 +248,7 @@ const AboutStyles = styled.section`
 	}
 
 	.profile {
-		width: 40%;
+		width: 35%;
 		box-shadow: 0 0 5px #888888;
 		border-radius: 5%;
 		margin: 3% 0%;
