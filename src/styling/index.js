@@ -344,8 +344,8 @@ const PortfolioStyles = styled.section`
 		margin: 1% auto;
 	}
 
-	h3 {
-		margin: 4% auto;
+	.project-subheader-2 {
+		margin: 1%;
 		font-size: 1.2rem;
 	}
 
@@ -376,7 +376,7 @@ const PortfolioStyles = styled.section`
 	.desc {
 		font-size: 1rem;
 		width: 100%;
-		margin: 2% 0%;
+		margin: 4% 0%;
 	}
 
 	@media(max-width: 1200px) {
