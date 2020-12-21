@@ -23,7 +23,7 @@ color: #262626;
 	width: 80%;
 	top: 0;
 	background-color: whitesmoke;
-	opacity: 0.9;
+	opacity: 0.8;
 }
 
 @media(max-width: 1024px) {
@@ -75,6 +75,7 @@ const NavStyles = styled.nav`
 		position: fixed;
 		display: flex;
 		justify-content: space-around;
+		align-items: center;
 		color: #262626;
 		top: 0;
 		width: 80%;
@@ -129,7 +130,6 @@ const NavStyles = styled.nav`
 			font-size: 1.3rem;
 		}
 	}
-
 	@media(max-width: 1024px) {
 		.site-header {
 			font-size: 1.3rem;
@@ -143,7 +143,13 @@ const NavStyles = styled.nav`
 			font-size: 1rem;
 		}
 	}
-
+	@media(max-width: 800px) {
+		padding: 2% 0%;
+		
+		i.fas {
+			font-size: 0rem;
+		}
+	}
 	@media(max-width: 768px) {
 		.site-header {
 			font-size: 1rem;
@@ -152,12 +158,10 @@ const NavStyles = styled.nav`
 		.nav-link {
 			font-size: 1rem;
 		}
-
-		i.fas {
-			font-size: 1rem;
-		}
 	}
-
+	@media(max-width: 600px) {
+		padding: 3% 0%;
+	}
 	@media(max-width: 480px) {
 		.site-header {
 			margin: 3% auto;
@@ -229,7 +233,7 @@ const AboutStyles = styled.section`
 	width: 60%;
 	padding: 1% 2%;
 	margin: 2% auto;
-	border-radius: 5%;
+	border-radius: 2%;
 	box-shadow: 0 0 5px #888888;
 
 	.about-header {
@@ -250,7 +254,7 @@ const AboutStyles = styled.section`
 	.profile {
 		width: 35%;
 		box-shadow: 0 0 5px #888888;
-		border-radius: 5%;
+		border-radius: 2%;
 		margin: 3% 0%;
 	}
 

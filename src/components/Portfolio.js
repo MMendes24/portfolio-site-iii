@@ -9,7 +9,6 @@ const Portfolio = () => {
     return (
         <PortfolioStyles>
             <h2 className="project-header">Projects</h2>
-            <h3 className="notice">(Portfolio section currently under construction)</h3>
             <div className="project-wrapper">
                 <div className="project">
                     <img className="project-img" src={cj} alt="campaign journal dashboard" />
