@@ -221,7 +221,7 @@ const AboutStyles = styled.section`
 	align-items: center;
 	width: 60%;
 	padding: 1% 2%;
-	margin: 2% auto;
+	margin: 4% auto;
 	border-radius: 2%;
 	box-shadow: 0 0 5px #888888;
 
@@ -309,7 +309,7 @@ const PortfolioStyles = styled.section`
 	flex-flow: column;
 	align-items: center;
 	justify-content: center;
-	margin: 3% 0%;
+	margin: 4% 0%;
 
 	.project-img {
 		width: 90%;
@@ -495,7 +495,7 @@ const ContactStyles = styled.footer`
 
 	@media(max-width: 480px) {
 	.attribution {
-		font-size: 1rem;
+		font-size: 0.6rem;
 		margin: 1% 2%;
 	}
 	}
