@@ -40,7 +40,6 @@ color: #262626;
 
 @media(max-width: 480px) {
 	width: 100%;
-	
 		.sticky .nav-wrapper {
 			position: absolute;
 			opacity: 1.0;
@@ -48,9 +47,7 @@ color: #262626;
 
 		.sticky-wrapper {
 			display: flex;
-			justify-content: center;
-			height:9rem;
-			width: 50%;
+			justify-content: space-around;
 			margin: auto;
 		}
 	}
@@ -145,7 +142,6 @@ const NavStyles = styled.nav`
 	}
 	@media(max-width: 800px) {
 		padding: 2% 0%;
-		
 		i.fas {
 			font-size: 0rem;
 		}
@@ -160,20 +156,13 @@ const NavStyles = styled.nav`
 		}
 	}
 	@media(max-width: 600px) {
+		.site-header {
+			font-size: 0rem;
+		}
 		padding: 3% 0%;
 	}
 	@media(max-width: 480px) {
-		.site-header {
-			margin: 3% auto;
-			font-size: 1.5rem;
-		}
-
-		.nav-wrapper {
-			position: absolute;
-			display: flex;
-			flex-flow: column;
-			justify-content: flex-start;
-		}
+		padding: 1% 0%;
 	}
 
 `
