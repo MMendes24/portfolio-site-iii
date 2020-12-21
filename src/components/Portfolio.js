@@ -3,12 +3,12 @@ import { PortfolioStyles } from "../styling"
 import cj from "../assets/cj.png"
 import cjserver from "../assets/cjserver.png"
 import conform from "../assets/contactform.png"
+import ppc from "../assets/ppc.png"
 
 const Portfolio = () => {
     return (
         <PortfolioStyles>
             <h2 className="project-header">Projects</h2>
-            <h3 className="notice">(Portfolio section currently under construction)</h3>
             <div className="project-wrapper">
                 <div className="project">
                     <img className="project-img" src={cj} alt="campaign journal dashboard" />
@@ -36,7 +36,14 @@ const Portfolio = () => {
                     <h3 className="project-subheader-2">Front-End Developer</h3>
                     <h3 className="project-subheader-2">December 2020</h3>
                     <p className="desc">Serverless react contact form that allows anyone to get in touch with me effortlessly</p>
-
+                </div>
+                <div className="project">
+                    <img className="project-img" src={ppc} alt="payment processor client" />
+                    <h2 className="project-subheader"><a href="https://stripe-checkout-marsmendes.netlify.app/" className="project-link">Campaign Journal Web Server</a></h2>
+                    <h3 className="project-subheader-2"><a href="https://github.com/MMendes24/payment-processor-client" className="project-link">Github</a></h3>
+                    <h3 className="project-subheader-2">Front-End Developerr</h3>
+                    <h3 className="project-subheader-2">December 2020</h3>
+                    <p className="desc">Payment processor that allows you to purchase one of a series of items, using React/Stripe</p>
                 </div>
             </div>
         </PortfolioStyles>
