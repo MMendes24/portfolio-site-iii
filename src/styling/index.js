@@ -162,9 +162,11 @@ const NavStyles = styled.nav`
 		padding: 3% 0%;
 	}
 	@media(max-width: 480px) {
-		padding: 1% 0%;
+		padding: 3% 0%;
 	}
-
+	@media(max-width: 300px) {
+		padding: 4% 0%;
+	}
 `
 const LandingStyles = styled.section`
 	color: whitesmoke;
