@@ -39,7 +39,7 @@ const Portfolio = () => {
                 </div>
                 <div className="project">
                     <img className="project-img" src={ppc} alt="payment processor client" />
-                    <h2 className="project-subheader"><a rel="noopener noreferrer" href="https://stripe-checkout-marsmendes.netlify.app/" target="_blank" className="project-link">Campaign Journal Web Server</a></h2>
+                    <h2 className="project-subheader"><a rel="noopener noreferrer" href="https://stripe-checkout-marsmendes.netlify.app/" target="_blank" className="project-link">Stripe Payment Processor</a></h2>
                     <h3 className="project-subheader-2"><a rel="noopener noreferrer" href="https://github.com/MMendes24/payment-processor-client" target="_blank" className="project-link">Github</a></h3>
                     <h3 className="project-subheader-2">Front-End Developerr</h3>
                     <h3 className="project-subheader-2">December 2020</h3>
